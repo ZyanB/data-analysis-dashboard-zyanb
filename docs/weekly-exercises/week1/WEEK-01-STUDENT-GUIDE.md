@@ -153,9 +153,9 @@ Shoes,160,February
 ## 🏠 Homework Assignments
 
 ### Required Tasks
-- [ ] **Task 1**: Finish in class activities
-- [ ] **Task 2**: Complete exercises in week1-exercises.md 
-- [ ] **Task 3**: Explore `src/components/Dashboard.tsx` and identify 3 different components being used
+- [X] **Task 1**: Finish in class activities
+- [X] **Task 2**: Complete exercises in week1-exercises.md 
+- [X] **Task 3**: Explore `src/components/Dashboard.tsx` and identify 3 different components being used
 
 
 ### Stretch Goals (Optional)
@@ -166,8 +166,11 @@ Shoes,160,February
 ### Reflection Questions
 Write answers to these (bring to next class):
 1. What's the difference between a component and regular HTML?
+A component is a resuable piece of UI built with JavaScript/JSX. It has its own logic and state whereas regular HTML is a static markup without any built-in logic.
 2. How do props help components work together?
+Props are functions passed from a parent component to a child. They make it possible to build complex UIs from simple, reusable pieces.
 3. What happens when you save a file - how does the browser update?
+When you save a file in a React project running a development server, the server detects the change and automatically reloads the browser. 
 
 ## 🆘 Troubleshooting
 

@@ -97,8 +97,12 @@ Analyze the state management in the main `Index` component.
 
 ### Questions to Answer
 1. What are the two main pieces of state being managed?
+(1) The uploaded data and (2) The loading status
 2. What triggers the state to change?
+(1) A user uploads a file or (2) a file is  successfully processed or (3) the uplaod process starts/finsihes. 
 3. How does the UI change based on state?
+If there is no data, then the UI shows the upload instructions
+When data is uploaded and processed, the UI conditionally renders the data table, charts, etc.
 
 ### Success Criteria
 - [ ] Can list all state variables and their purposes
@@ -114,7 +118,7 @@ React hooks, state management, and conditional rendering.
 
 ### Question 1
 What does JSX stand for and why is it useful?
-- [ ] A. JavaScript XML - allows HTML-like syntax in JavaScript
+- [X] A. JavaScript XML - allows HTML-like syntax in JavaScript
 - [ ] B. JavaScript Extension - adds new features to JavaScript  
 - [ ] C. Java Syntax Extension - connects Java and JavaScript
 - [ ] D. JSON XML - converts between data formats
@@ -122,14 +126,14 @@ What does JSX stand for and why is it useful?
 ### Question 2
 In React, what is a "prop"?
 - [ ] A. A CSS property for styling components
-- [ ] B. Data passed from parent component to child component
+- [X] B. Data passed from parent component to child component
 - [ ] C. A JavaScript function that returns HTML
 - [ ] D. A file that contains component code
 
 ### Question 3
 What happens when you call a `setState` function in React?
 - [ ] A. The component immediately re-renders
-- [ ] B. The component schedules a re-render for the next cycle
+- [X] B. The component schedules a re-render for the next cycle
 - [ ] C. The entire page refreshes
 - [ ] D. Nothing happens until you manually refresh
 
