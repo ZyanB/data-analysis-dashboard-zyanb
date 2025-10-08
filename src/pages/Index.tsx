@@ -25,6 +25,8 @@ import { DataRow } from '@/types/data';
 // 🔧 WEEK 2: Import your UploadProgressSimulator component here
 // 🔧 WEEK 3+: Additional imports will be added as you progress
 
+import InteractivePractice from '@/components/homework/InteractivePractice';
+
 const Index = () => {
   // 🧠 Component State - this is your component's memory!
   // useState lets your component remember and change data
@@ -61,6 +63,10 @@ const Index = () => {
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
             Built by Zyan - Future Data Scientist
           </p>
+            {/* Interactive Practice Component */}
+            <div className="mt-8 mb-8 flex justify-center">
+              <InteractivePractice />
+            </div>
           {/* 🆕 WEEK 3: Live Event Handling Demo (removed NameInput from homepage) */}
           {/* <div className="mt-8 mb-8 flex justify-center">
             <NameInput />
